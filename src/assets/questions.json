@@ -1,0 +1,141 @@
+{
+  "questions":[
+    {
+      "id": 1,
+      "question": "What purpose does the ngModel directive serve?",
+      "questionType":1,
+      "options": [
+        "Handling HTTP request",
+        "Data binding for both input and output",
+        "Listening to DOM events",
+        "Controlling animation"
+      ],
+      "answer": "Data binding for both input and output"
+    },
+    {
+      "id": 2,
+      "question": "How can you generate a new component using Angular CLI?",
+      "questionType":4,
+      "options": [
+        "assets/createComponent2.png",
+        "assets/createComponent1.png",
+        "assets/createComponent4.png",
+        "assets/createComponent3.png"
+      ],
+      "answer": "assets/createComponent1.png"
+    },
+    {
+      "id": 3,
+      "question": "Rank the lifecycle hooks?",
+      "questionType":5,
+      "options": [
+        "ngOnInit()",
+        "ngOnChange()",
+        "ngDoCheck()",
+        "constructor()"
+      ],
+      "answer":["constructor()","ngOnChange()","ngOnInit()","ngDoCheck()"]
+    },
+    {
+      "id": 4,
+      "question": "Which Angular decorator is used for making a class a root module?",
+      "questionType":1,
+      "options": ["@Module()", "@Component()", "@Directive()", "@NgModule()"],
+      "answer": "@NgModule()"
+    },
+    {
+      "id": 5,
+      "question": "Which is the correct syntax for an Angular Event binding?",
+      "questionType":1,
+      "options": [
+        "{click}=”doSomething()”",
+        "on-click=”doSomething()”",
+        "(click)=”doSomething()”",
+        "click[]=”doSomething()”"
+      ],
+      "answer": "(click)=”doSomething()”"
+    },
+    {
+      "id": 6,
+      "question": "'npm install -g @angular/cli' is used to install Angular CLI globally?",
+      "questionType":3,
+      "answer": "true"
+    },
+    {
+      "id": 7,
+      "question": "How do you define a route in Angular?",
+      "questionType":1,
+      "options": [
+        "Using <a> tags",
+        "Using the Router service",
+        "Using the Routes array",
+        "Using the @Route() decorator"
+      ],
+      "answer": "Using the Routes array"
+    },
+    {
+      "id": 8,
+      "question": "Whats the primary purpose of the ngOnInit lifecycle hook in Angular components?",
+      "questionType":1,
+      "options": [
+        "Initialization and data retrieval",
+        "Destruction of instances",
+        "Manipulation of the views DOM",
+        "Handling of user input"
+      ],
+      "answer": "Initialization and data retrieval"
+    },
+    {
+      "id": 9,
+      "question": "Select a prime numbers?",
+      "questionType":2,
+      "options": [
+        "three",
+        "nine",
+        "five",
+        "seven"
+      ],
+      "answer": ["three", "five","seven"]
+    },
+    {
+      "id": 10,
+      "question": "selected a junkfood?",
+      "questionType":2,
+      "options": [
+        "cakes and biscuits",
+        "fastfoods",
+        "fruits",
+        "vegetables"
+      ],
+      "answer": [
+        "cakes and biscuits",
+        "fastfood"
+        
+      ]
+    },    
+    {
+      "id": 11,
+      "question": "How can you generate a new service using Angular CLI?",
+      "questionType":1,
+      "options": [
+        "ng create service my-service",
+        "ng generate service my-service",
+        "ng new service my-service",
+        "ng add service my-service"
+      ],
+      "answer": "ng generate service my-service"
+    },
+    {
+      "id": 12,
+      "question": "How can you generate a new service using Angular CLI?",
+      "questionType":1,
+      "options": [
+        "ng create service my-service",
+        "ng generate service my-service",
+        "ng new service my-service",
+        "ng add service my-service"
+      ],
+      "answer": "ng generate service my-service"
+    }
+  ]
+}
